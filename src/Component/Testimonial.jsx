@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import person1 from "../assets/images/adi.jpeg";
+import person1 from "../assets/images/amit.avif";
 import person2 from "../assets/images/abhi.png";
 import person3 from "../assets/images/shubham.jpeg";
 import person4 from "../assets/images/veeru.jpeg";
