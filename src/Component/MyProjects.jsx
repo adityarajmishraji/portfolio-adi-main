@@ -19,18 +19,18 @@ const MyProjects = () => {
       link: "https://github.com/adityarajmishraji/Gym_Management_System",
       tags: ["Html", "Css", "JavaScript", "Php", "MySQL"],
     },
-    // {
-    //   id: 2,
-    //   image: project2,
-    //   title: "Top 15+ JavaScript Projects",
-    //   description: [
-    //     "Created 18+ interactive JS projects for learning.",
-    //     "Live previews and easy code download.",
-    //     "Boosted user engagement with hands-on projects.",
-    //   ],
-    //   link: "https://github.com/adityarajmishraji/Gym_Management_System",
-    //   tags: ["Html", "Css", "JavaScript"],
-    // },
+    {
+      id: 2,
+      image: project2,
+      title: "Top 15+ JavaScript Projects",
+      description: [
+        "Created 18+ interactive JS projects for learning.",
+        "Live previews and easy code download.",
+        "Boosted user engagement with hands-on projects.",
+      ],
+      link: "https://github.com/adityarajmishraji/Gym_Management_System",
+      tags: ["Html", "Css", "JavaScript"],
+    },
     {
       id: 3,
       image: project3,
