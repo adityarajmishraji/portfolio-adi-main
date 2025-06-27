@@ -84,7 +84,7 @@ const Home = ({ scrollToAbout }) => {
                 Aditya Mishra
               </h1>
               <p className="pointer-events-none font-['Merriweather'] italic my-4 md:my-8">
-                MERN Stack Developer
+                Full-Stack Developer
               </p>
               <button
                 onClick={() => setIsModalOpen(true)}
