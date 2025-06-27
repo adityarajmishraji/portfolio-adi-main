@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-adi-main/static/css/main.e8bd22a3.css",
-    "main.js": "/portfolio-adi-main/static/js/main.977b5cc7.js",
+    "main.js": "/portfolio-adi-main/static/js/main.1ab389f5.js",
     "static/media/project2.png": "/portfolio-adi-main/static/media/project2.7629c06aabb6ab67514a.png",
     "static/media/abhi.png": "/portfolio-adi-main/static/media/abhi.fddfbf71328a9bea0d86.png",
     "static/media/project3.png": "/portfolio-adi-main/static/media/project3.29ed74f29875f8cbe045.png",
@@ -31,10 +31,10 @@
     "static/media/html.svg": "/portfolio-adi-main/static/media/html.aeaa7d2fd8cf7b6d1eca2913f9ed96bb.svg",
     "static/media/css.svg": "/portfolio-adi-main/static/media/css.12526ec909a8cf2db0ca1ed8ba197e41.svg",
     "main.e8bd22a3.css.map": "/portfolio-adi-main/static/css/main.e8bd22a3.css.map",
-    "main.977b5cc7.js.map": "/portfolio-adi-main/static/js/main.977b5cc7.js.map"
+    "main.1ab389f5.js.map": "/portfolio-adi-main/static/js/main.1ab389f5.js.map"
   },
   "entrypoints": [
     "static/css/main.e8bd22a3.css",
-    "static/js/main.977b5cc7.js"
+    "static/js/main.1ab389f5.js"
   ]
 }
