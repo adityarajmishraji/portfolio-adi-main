@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import person1 from "../assets/images/amit.avif";
+import person1 from "../assets/images/amit.jpg";
 import person2 from "../assets/images/abhi.png";
 import person3 from "../assets/images/shubham.jpeg";
 import person4 from "../assets/images/veeru.jpeg";
@@ -13,7 +13,7 @@ const Testimonial = () => {
   const testimonials = [
     {
       name: "Amit Mishra",
-      role: "HR Manager, Script India InfoTech",
+      role: "MERN-Stack Devloper, Script India InfoTech",
       text: "Aditya perfectly understood our need for an HR platform and developed a website that met those requirements. He streamlined our processes, saving time and making performance tracking much easier.",
       image: person1,
     },

@@ -103,7 +103,7 @@ const Experience = () => {
             {/* Center Point */}
             <div className="relative">
               <p className="absolute top-2 md:-top-3 left-14 text-sm whitespace-nowrap">
-                May 2023 - Jul 2023
+                Jan 2025 - May 2025
               </p>
               <div className="w-6 h-6 bg-[#1B1535] rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-4 border-[#1595B6] shadow-glow"></div>
             </div>
@@ -133,7 +133,7 @@ const Experience = () => {
                 <p className="text-sm">Sardar Patel University, (SPU)</p>
                 <p className="text-sm">(Pursuing)</p>
                 <p className="text-sm">
-                  <span className="font-medium">CGPA</span>: 6.47
+                  <span className="font-medium">SGPA</span>: 7
                 </p>
               </div>
             </div>
