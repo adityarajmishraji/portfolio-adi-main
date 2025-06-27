@@ -155,9 +155,9 @@ const Experience = () => {
                 <p className="text-sm">Divine InfoTech, Vapi, Gujarat</p>
                 <h4 className="font-semibold mt-2">Key Responsibilities:</h4>
                 <ul className="list-disc pl-5 text-sm">
-                  <li>Developed web apps using the MERN stack.</li>
+                  <li>Maintain CI-CD workflow in Software Devlopment Life Cycle.</li>
                   <li>
-                    Collaborated with team members for feature implementation.
+                    Collaborated with teams for solution implementation.
                   </li>
                   <li>Optimized app performance and resolved bugs.</li>
                 </ul>
