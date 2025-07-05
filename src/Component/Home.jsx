@@ -1,6 +1,6 @@
 import React, { useCallback, useRef, useState } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+import Particles from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
 import "./Home.css";
 import gsap from "gsap";
 import particleConfig from "../particlesjs/particleConfig";
@@ -15,9 +15,9 @@ import {
   Whatsapp,
 } from "./svgicons/SocialIcons";
 const Home = ({ scrollToAbout }) => {
-  const particlesInit = useCallback(async (main) => {
+  const particlesInit = useCallback(async (engine) => {
     try {
-      await loadFull(main);
+      await loadSlim(engine);
     } catch (error) {
       console.error("Failed to initialize particles:", error);
     }

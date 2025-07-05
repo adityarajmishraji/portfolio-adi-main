@@ -1,16 +1,11 @@
 import React from "react";
-// import { useTranslation } from 'react-i18next'; // i18next for internationalization
-// import { Trans } from 'react-i18next'; // Trans component for complex translations
 
 const Experience = () => {
-  // const { t } = useTranslation();
-
   return (
     <div className="bg-black text-white px-10 md:px-32 w-full" id="education">
       <div className="container mx-auto py-8">
-        <h3 className="text-gray-400 uppercase">{/* {t('my')} */}My,</h3>
+        <h3 className="text-gray-400 uppercase">My,</h3>
         <h1 className="md:text-5xl text-2xl mb-12 md:mb-28 text-left font-[amspiro2] tracking-wider font-extrabold">
-          {/* <Trans i18nKey="educationAndExperience">Education ＆ Experience.</Trans> */}
           Education ＆ Experience.
         </h1>
         <div className="relative">
@@ -21,12 +16,13 @@ const Experience = () => {
             {/* Left Content */}
             <div className="w-full md:w-1/2 flex justify-end pr-0 md:pr-8 relative">
               <div className="bg-[#1B1535] p-6 rounded-lg shadow-lg w-full md:w-[60%] md:mr-12">
-                <h3 className="text-left font-extrabold">{/* {t('12thScience')} */}12th (Science)</h3>
-                <p className="text-sm">{/* {t('schoolName')} */}Sanskar Bharti High School ,</p>
+                <h3 className="text-left font-extrabold">12th (Sceince)</h3>
+
+                <p className="text-sm">Sanskar Bharti High School ,</p>
                 <p className="text-sm">
-                  <span className="font-medium">{/* {t('board')} */}Board</span>: GSHEB
+                  <span className="font-medium">Board</span>: GSHEB
                 </p>
-                <p className="text-sm">{/* {t('percentage', { value: '61%' })} */}Percentage: 61%</p>
+                <p className="text-sm">Percentage: 61%</p>
               </div>
               <div className="absolute right-0 top-1/2 transform -translate-y-1/2 border-t-4 w-0 md:w-20 border-[#1595B6] shadow-glow"></div>
             </div>
