@@ -24,13 +24,13 @@ const Contactme = () => {
     const form = e.target;
 
     // Get CSRF token
-    // const csrfToken = await getCsrfToken();
+    const csrfToken = await getCsrfToken();
 
     fetch("https://getform.io/f/azyyogvb", {
       method: "POST",
       body: new FormData(form),
       headers: {
-        // 'X-CSRF-Token': csrfToken, // Include CSRF token in headers
+        'X-CSRF-Token': csrfToken, // Include CSRF token in headers
       },
     })
       .then(() => {
@@ -41,6 +41,9 @@ const Contactme = () => {
           closeOnClick: true,
           pauseOnHover: false,
           draggable: true,
+          // Import statement for i18next
+          // import { useTranslation } from 'react-i18next';
+
           theme: "dark",
         });
 
@@ -56,20 +59,22 @@ const Contactme = () => {
       });
   };
 
+  // const { t } = useTranslation();
+
   return (
     <div className="text-white px-4 md:px-32 py-10 w-full">
       <ToastContainer />
       <div className="container mx-auto py-8">
-        <h4 className="text-gray-400 uppercase">Want to send me a message</h4>
+        <h4 className="text-gray-400 uppercase">{t('contact.message')}</h4>
         <h1 className="md:text-5xl text-2xl mb-12 md:mb-6 text-left font-[amspiro2] tracking-wider font-extrabold">
-          Contact Me.
+          {t('contact.title')}
         </h1>
         <div className="min-h-screen flex flex-col md:flex-row items-center justify-center p-6 gap-14">
           <div className="w-full max-w-md bg-[#1B1535]/70 backdrop-blur-md p-8 rounded-lg shadow-lg">
             <form onSubmit={handleSubmit} method="POST">
               <div className="mb-4">
                 <label className="block text-white text-sm font-bold mb-2">
-                  Name
+                  {t('contact.name')}
                 </label>
                 <input
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent text-white"
@@ -77,14 +82,14 @@ const Contactme = () => {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="Your Name"
+                  placeholder={t('contact.namePlaceholder')}
                   required
                 />
               </div>
 
               <div className="mb-4">
                 <label className="block text-white text-sm font-bold mb-2">
-                  Email
+                  {t('contact.email')}
                 </label>
                 <input
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent text-white"
@@ -92,14 +97,14 @@ const Contactme = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="Your Email"
+                  placeholder={t('contact.emailPlaceholder')}
                   required
                 />
               </div>
 
               <div className="mb-6">
                 <label className="block text-white text-sm font-bold mb-2">
-                  Message
+                  {t('contact.message')}
                 </label>
                 <textarea
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent text-white"
