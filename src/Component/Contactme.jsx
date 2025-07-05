@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import earth from "../assets/images/Techno/earth.jpg";
+// Import the necessary package for CSRF protection
+// import { getCsrfToken } from 'next-auth/react'; // Assuming Next.js with next-auth is used
 
 const Contactme = () => {
   const [loading, setLoading] = useState(false);
@@ -16,14 +18,20 @@ const Contactme = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     const form = e.target;
 
+    // Get CSRF token
+    // const csrfToken = await getCsrfToken();
+
     fetch("https://getform.io/f/azyyogvb", {
       method: "POST",
       body: new FormData(form),
+      headers: {
+        // 'X-CSRF-Token': csrfToken, // Include CSRF token in headers
+      },
     })
       .then(() => {
         toast.success("Message Sent Successfully! 🚀", {
