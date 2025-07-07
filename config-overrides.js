@@ -1,8 +1,11 @@
-const { override, addWebpackAlias } = require('customize-cra');
+const { override, babelInclude } = require('customize-cra');
 const path = require('path');
 
 module.exports = override(
-  addWebpackAlias({
-    'react/jsx-runtime': path.resolve(__dirname, './node_modules/react/jsx-runtime.js'),
-  })
+  // Include node_modules for transpilation
+  babelInclude([
+    path.resolve('src'),
+    // Add specific problematic packages
+    path.resolve('node_modules/react-parallax-tilt')
+  ])
 );

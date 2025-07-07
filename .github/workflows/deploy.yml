@@ -26,7 +26,10 @@ jobs:
 
 
     - name: Build project
-      run: NODE_OPTIONS=--openssl-legacy-provider npm run build
+      run: |
+        # Remove react-parallax-tilt from package.json to avoid the jsx-runtime issue
+        npm uninstall react-parallax-tilt --legacy-peer-deps
+        NODE_OPTIONS=--openssl-legacy-provider npm run build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
