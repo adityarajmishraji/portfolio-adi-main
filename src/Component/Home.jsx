@@ -1,6 +1,5 @@
 import React, { useCallback, useRef, useState } from "react";
-import Particles from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim";
+import Particles from "react-tsparticles";
 import "./Home.css";
 import gsap from "gsap";
 import particleConfig from "../particlesjs/particleConfig";
@@ -16,11 +15,11 @@ import {
 } from "./svgicons/SocialIcons";
 const Home = ({ scrollToAbout }) => {
   const particlesInit = useCallback(async (engine) => {
-    try {
-      await loadSlim(engine);
-    } catch (error) {
-      console.error("Failed to initialize particles:", error);
-    }
+    console.log("Particles engine loaded", engine);
+  }, []);
+
+  const particlesLoaded = useCallback(async (container) => {
+    console.log("Particles container loaded", container);
   }, []);
   const tiltRef = useRef(null);
   const mouseMoving = useCallback((e) => {
@@ -55,6 +54,7 @@ const Home = ({ scrollToAbout }) => {
         <Particles
           id="tsparticles"
           init={particlesInit}
+          loaded={particlesLoaded}
           options={particleConfig}
         />
       </div>
