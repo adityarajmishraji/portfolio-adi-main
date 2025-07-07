@@ -27,8 +27,9 @@ jobs:
 
     - name: Build project
       run: |
-        # Remove react-parallax-tilt from package.json to avoid the jsx-runtime issue
-        npm uninstall react-parallax-tilt --legacy-peer-deps
+        # Copy the simplified Technologies.jsx for the build
+        cp src/Component/Technologies.jsx.build src/Component/Technologies.jsx
+        # Build the project
         NODE_OPTIONS=--openssl-legacy-provider npm run build
 
     - name: Deploy to GitHub Pages
