@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-adi-main/static/css/main.67554b58.css",
-    "main.js": "/portfolio-adi-main/static/js/main.6a6ea0b8.js",
+    "main.css": "/portfolio-adi-main/static/css/main.16d5f54a.css",
+    "main.js": "/portfolio-adi-main/static/js/main.440b9306.js",
     "static/media/project2.png": "/portfolio-adi-main/static/media/project2.7629c06aabb6ab67514a.png",
     "static/media/abhi.png": "/portfolio-adi-main/static/media/abhi.fddfbf71328a9bea0d86.png",
     "static/media/project3.png": "/portfolio-adi-main/static/media/project3.29ed74f29875f8cbe045.png",
@@ -30,11 +30,11 @@
     "static/media/tailwind.svg": "/portfolio-adi-main/static/media/tailwind.fa24fda25227340cee94a57e12878052.svg",
     "static/media/html.svg": "/portfolio-adi-main/static/media/html.aeaa7d2fd8cf7b6d1eca2913f9ed96bb.svg",
     "static/media/css.svg": "/portfolio-adi-main/static/media/css.12526ec909a8cf2db0ca1ed8ba197e41.svg",
-    "main.67554b58.css.map": "/portfolio-adi-main/static/css/main.67554b58.css.map",
-    "main.6a6ea0b8.js.map": "/portfolio-adi-main/static/js/main.6a6ea0b8.js.map"
+    "main.16d5f54a.css.map": "/portfolio-adi-main/static/css/main.16d5f54a.css.map",
+    "main.440b9306.js.map": "/portfolio-adi-main/static/js/main.440b9306.js.map"
   },
   "entrypoints": [
-    "static/css/main.67554b58.css",
-    "static/js/main.6a6ea0b8.js"
+    "static/css/main.16d5f54a.css",
+    "static/js/main.440b9306.js"
   ]
 }
