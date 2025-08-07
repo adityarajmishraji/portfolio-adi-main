@@ -27,10 +27,13 @@ jobs:
 
     - name: Build project
       run: |
-        # Copy the simplified Technologies.jsx for the build
+        # Copy the simplified components for the build
         cp src/Component/Technologies.jsx.build src/Component/Technologies.jsx
+        cp src/Component/Home.jsx.build src/Component/Home.jsx
+        cp src/Component/Testimonial.jsx.build src/Component/Testimonial.jsx
+        cp src/Component/MyProjects.jsx.build src/Component/MyProjects.jsx
         # Build the project
-        NODE_OPTIONS=--openssl-legacy-provider npm run build
+        npm run build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
