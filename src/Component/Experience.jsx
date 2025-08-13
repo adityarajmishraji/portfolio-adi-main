@@ -150,12 +150,12 @@ const Experience = () => {
             <div className="w-full md:w-1/2 flex justify-end pr-0 md:pr-8 relative">
               <div className="bg-[#1B1535] p-6 rounded-lg shadow-lg w-full md:w-[60%] md:mr-12">
                 <h4 className="text-left font-extrabold whitespace-normal tracking-wider">
-                  DevOps Culture (Pursuing)
+                  PHP Developer
                 </h4>
-                <p className="text-sm">Divine InfoTech, Vapi, Gujarat</p>
+                <p className="text-sm">Nikket Communication</p>
                 <h4 className="font-semibold mt-2">Key Responsibilities:</h4>
                 <ul className="list-disc pl-5 text-sm">
-                  <li>Maintain CI-CD workflow in Software Devlopment Life Cycle.</li>
+                  <li>Learn and Maintain workflow in Software Devlopment Life Cycle.</li>
                   <li>
                     Collaborated with teams for solution implementation.
                   </li>
