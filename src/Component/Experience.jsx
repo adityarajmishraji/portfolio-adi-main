@@ -155,7 +155,7 @@ const Experience = () => {
                 <p className="text-sm">Nikket Communication</p>
                 <h4 className="font-semibold mt-2">Key Responsibilities:</h4>
                 <ul className="list-disc pl-5 text-sm">
-                  <li>Learn and Maintain workflow in Software Devlopment Life Cycle.</li>
+                  <li>Learning and Maintaining workflow in Software Development Life Cycle.</li>
                   <li>
                     Collaborated with teams for solution implementation.
                   </li>
