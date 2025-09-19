@@ -98,12 +98,13 @@ const Footer = () => {
 
         {/* Copyright - Bottom Section */}
         <div className="text-center text-sm text-gray-400 mt-6">
-          Copyright &copy; 2025; Designed by  Developed by Aditya Mishra
-          For a better user experience, use Chrome or Firefox.
+          Copyright &copy; 2025; Designed by  Developed by
+          
           <span className="tracking-wide uppercase font-semibold text-white">
             {" "}
             A-R-M ❤️
           </span>
+          And for a better user experience, use Chrome or Firefox.
         </div>
       </div>
     </footer>
