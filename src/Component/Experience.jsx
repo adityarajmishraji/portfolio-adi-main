@@ -15,7 +15,7 @@ const Experience = () => {
           <div className="mb-20 flex flex-col md:flex-row items-center">
             {/* Left Content */}
             <div className="w-full md:w-1/2 flex justify-end pr-0 md:pr-8 relative">
-              <div className="bg-[#1B1535] p-6 rounded-lg shadow-lg w-full md:w-[60%] md:mr-12">
+              <div className="bg-[#1B1535] p-6 rounded-lg shadow-lg w-full md:w-[60%] md:mr-12 hover:shadow-[0_0_20px_rgba(21,149,182,0.5)] hover:border hover:border-[#1595B6] transition-all duration-300">
                 <h3 className="text-left font-extrabold">12th (Sceince)</h3>
 
                 <p className="text-sm">Sanskar Bharti High School ,</p>
@@ -53,7 +53,7 @@ const Experience = () => {
             {/* Right Content */}
             <div className="w-full md:w-1/2 flex justify-start relative pl-0 md:pl-8">
               <div className="absolute left-0 top-1/2 transform -translate-y-1/2 border-t-4 w-0 md:w-20 border-[#1595B6] shadow-glow"></div>
-              <div className="bg-[#1B1535] p-6 rounded-lg shadow-lg w-full md:w-[60%] md:ml-12">
+              <div className="bg-[#1B1535] p-6 rounded-lg shadow-lg w-full md:w-[60%] md:ml-12 hover:shadow-[0_0_20px_rgba(21,149,182,0.5)] hover:border hover:border-[#1595B6] transition-all duration-300">
                 <h4 className="text-left font-extrabold  whitespace-normal tracking-wider">
                   Bachelor of Computer Application (BCA)
                 </h4>
@@ -76,7 +76,7 @@ const Experience = () => {
             </div>
             {/* Left Content */}
             <div className="w-full md:w-1/2 flex justify-end pr-0 md:pr-8 relative">
-              <div className="bg-[#1B1535] p-6 rounded-lg shadow-lg w-full md:w-[60%] md:mr-12">
+              <div className="bg-[#1B1535] p-6 rounded-lg shadow-lg w-full md:w-[60%] md:mr-12 hover:shadow-[0_0_20px_rgba(21,149,182,0.5)] hover:border hover:border-[#1595B6] transition-all duration-300">
                 <h4 className="text-left font-extrabold  whitespace-normal tracking-wider">
                   Web Developer Intern
                 </h4>
@@ -125,7 +125,7 @@ const Experience = () => {
             {/* Right Content */}
             <div className="w-full md:w-1/2 flex justify-start relative pl-0 md:pl-8">
               <div className="absolute left-0 top-1/2 transform -translate-y-1/2 border-t-4 w-0 md:w-20 border-[#1595B6] shadow-glow"></div>
-              <div className="bg-[#1B1535] p-6 rounded-lg shadow-lg w-full md:w-[60%] md:ml-12">
+              <div className="bg-[#1B1535] p-6 rounded-lg shadow-lg w-full md:w-[60%] md:ml-12 hover:shadow-[0_0_20px_rgba(21,149,182,0.5)] hover:border hover:border-[#1595B6] transition-all duration-300">
                 <h4 className="text-left font-extrabold  whitespace-normal tracking-wider">
                   Master of Computer Application (MCA)
                 </h4>
@@ -147,7 +147,7 @@ const Experience = () => {
             </div>
             {/* Left Content */}
             <div className="w-full md:w-1/2 flex justify-end pr-0 md:pr-8 relative">
-              <div className="bg-[#1B1535] p-6 rounded-lg shadow-lg w-full md:w-[60%] md:mr-12">
+              <div className="bg-[#1B1535] p-6 rounded-lg shadow-lg w-full md:w-[60%] md:mr-12 hover:shadow-[0_0_20px_rgba(21,149,182,0.5)] hover:border hover:border-[#1595B6] transition-all duration-300">
                 <h4 className="text-left font-extrabold whitespace-normal tracking-wider">
                   PHP Developer
                 </h4>
