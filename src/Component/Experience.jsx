@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div id="education">
+    <div id="education" style={{padding: '20px', color: 'white'}}>
       <div>
         <h3>My,</h3>
         <h1>
