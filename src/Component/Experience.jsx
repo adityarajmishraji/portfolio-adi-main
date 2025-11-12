@@ -149,7 +149,7 @@ const Experience = () => {
             <div className="w-full md:w-1/2 flex justify-end pr-0 md:pr-8 relative">
               <div className="bg-[#1B1535] p-6 rounded-lg shadow-lg w-full md:w-[60%] md:mr-12 hover:shadow-[0_0_20px_rgba(21,149,182,0.5)] hover:border hover:border-[#1595B6] transition-all duration-300">
                 <h4 className="text-left font-extrabold whitespace-normal tracking-wider">
-                  PHP Developer
+                  Aspiring DevOps Engineer
                 </h4>
                 <p className="text-sm">Nikket Communication</p>
                 <h4 className="font-semibold mt-2">Key Responsibilities:</h4>
