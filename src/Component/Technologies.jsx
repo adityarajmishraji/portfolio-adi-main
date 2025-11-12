@@ -19,7 +19,7 @@ const Technologies = () => {
       className="text-white bg-black px-4 md:px-10 py-10 w-full text-2xl md:text-5xl font-[amspiro2] text-center"
       id="technologies"
     >
-      <h1 className="mb-8">Technologies</h1>
+      <h1 className="mb-8">Technologies And Some Certifications</h1>
 
       {/* Responsive Grid Layout */}
       <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-6 justify-center items-center mt-10 md:mt-20 md:px-32 lg:px-72">
