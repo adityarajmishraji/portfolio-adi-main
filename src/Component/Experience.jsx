@@ -151,7 +151,7 @@ const Experience = () => {
                 <h4 className="text-left font-extrabold whitespace-normal tracking-wider">
                   Full-Stack Developer Intern
                 </h4>
-                <p className="text-sm">Nikket Communication</p>
+                <p className="text-sm">Divine InfoTech</p>
                 <h4 className="font-semibold mt-2">Key Responsibilities:</h4>
                 <ul className="list-disc pl-5 text-sm">
                   <li>Learning and Maintaining workflow in Software Development Life Cycle.</li>
