@@ -98,7 +98,7 @@ const Footer = () => {
 
         {/* Copyright - Bottom Section */}
         <div className="text-center text-sm text-gray-400 mt-6">
-          Copyright &copy; 2025; Designed by  Developed by
+          Copyright &copy; 2025; Designed &  Developed by
           
           <span className="tracking-wide uppercase font-semibold text-white">
             {" "}
