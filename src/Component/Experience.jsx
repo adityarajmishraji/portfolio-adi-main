@@ -103,7 +103,7 @@ const Experience = () => {
             {/* Center Point */}
             <div className="relative">
               <p className="absolute top-2 md:-top-3 left-14 text-sm whitespace-nowrap">
-                Jan 2025 - May 2025
+                Jan 2025 - April 2025
               </p>
               <div className="w-6 h-6 bg-[#1B1535] rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-4 border-[#1595B6] shadow-glow"></div>
             </div>
@@ -127,10 +127,10 @@ const Experience = () => {
               <div className="absolute left-0 top-1/2 transform -translate-y-1/2 border-t-4 w-0 md:w-20 border-[#1595B6] shadow-glow"></div>
               <div className="bg-[#1B1535] p-6 rounded-lg shadow-lg w-full md:w-[60%] md:ml-12 hover:shadow-[0_0_20px_rgba(21,149,182,0.5)] hover:border hover:border-[#1595B6] transition-all duration-300">
                 <h4 className="text-left font-extrabold  whitespace-normal tracking-wider">
-                  Master of Computer Application (MCA)
+                  Masters of Computer Application (MCA)
                 </h4>
                 <p className="text-sm">Sardar Patel University, (SPU)</p>
-                <p className="text-sm">(Pursuing)</p>
+                <p className="text-sm">Mastered</p>
                 <p className="text-sm">
                   <span className="font-medium">SGPA</span>: 7
                 </p>
@@ -151,14 +151,15 @@ const Experience = () => {
                 <h4 className="text-left font-extrabold whitespace-normal tracking-wider">
                   Full-Stack Developer Intern
                 </h4>
-                <p className="text-sm">Divine InfoTech</p>
+                <p className="text-sm">Sotech TechServices Pvbt. Ltd.</p>
                 <h4 className="font-semibold mt-2">Key Responsibilities:</h4>
                 <ul className="list-disc pl-5 text-sm">
-                  <li>Learning and Maintaining workflow in Software Development Life Cycle.</li>
+                  <li>Used Git for version control and actively collaborated in an Agile development workflow.</li>
                   <li>
                     Collaborated with teams for solution implementation.
                   </li>
-                  <li>Optimized app performance and resolved bugs.</li>
+                  <li>Deployed and configured a production-grade email server on AWS EC2, including DNS setup (MX, TXT, PTR records via
+Cloudflare), SSL/TLS certificates, and email authentication (SPF, DKIM, DMARC).</li>
                 </ul>
               </div>
               <div className="absolute right-0 top-1/2 transform -translate-y-1/2 border-t-4 w-0 md:w-20 border-[#1595B6] shadow-glow"></div>
@@ -167,7 +168,7 @@ const Experience = () => {
             {/* Center Point */}
             <div className="relative">
               <p className="absolute top-2 md:-top-3 left-14 text-sm whitespace-nowrap">
-                Jan 2025 - Apr 2025
+                Nov 2025 - Apr 2026
               </p>
               <div className="md:block hidden w-6 h-6 bg-[#1B1535] rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-4 border-[#1595B6] shadow-glow"></div>
             </div>

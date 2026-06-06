@@ -45,6 +45,7 @@ const AboutModal = memo(({ isOpen, onClose }) => {
     "#github",
     "#sass",
     "#php",
+    "#linux",
     "#graphic-design",
   ];
 

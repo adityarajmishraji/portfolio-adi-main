@@ -34,7 +34,7 @@ const MyProjects = () => {
     {
       id: 3,
       image: project3,
-      title: "Photography Management System",
+      title: "E-Learing Plateform",
       description: [
         "Web-based system for managing Photographer online presence and connect with world through the internet.",
         "User registration, booking appointment, and select packages for photoshoot.",

@@ -2,7 +2,7 @@ import React from "react";
 import html from "../assets/images/Techno/html.svg";
 import css from "../assets/images/Techno/css.svg";
 import javascript from "../assets/images/Techno/js.svg";
-import php from "../assets/images/Techno/php.svg";
+// import php from "../assets/images/Techno/php.svg";
 import reactjs from "../assets/images/Techno/react.svg";
 import nodejs from "../assets/images/Techno/node.svg";
 import mongodb from "../assets/images/Techno/mongodb.svg";
@@ -10,6 +10,7 @@ import mysql from "../assets/images/Techno/mysql.svg";
 import tailwind from "../assets/images/Techno/tailwind.svg";
 import bootstrap from "../assets/images/Techno/bootstrap.svg";
 import git from "../assets/images/Techno/git.svg";
+import linux from "../assets/images/Techno/linux.svg";
 import postman from "../assets/images/Techno/postman.svg";
 import Tilt from "react-parallax-tilt";
 
@@ -27,7 +28,7 @@ const Technologies = () => {
           html,
           css,
           javascript,
-          php,
+          // php,
           reactjs,
           nodejs,
           mongodb,
@@ -35,6 +36,7 @@ const Technologies = () => {
           tailwind,
           bootstrap,
           git,
+          linux,
           postman,
         ].map((tech, index) => (
           <Tilt
