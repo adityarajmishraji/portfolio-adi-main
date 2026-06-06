@@ -4,6 +4,7 @@ import {
   GithubIcon,
   InstagramIcon,
   LinkedInIcon,
+  TwitterIcon,
 } from "./svgicons/SocialIcons";
 
 const Footer = () => {
@@ -30,7 +31,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/aditya-mishra-335288246/"
+            href="https://www.linkedin.com/in/aditya-mishra-111-dev/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center w-12 h-12 text-white rounded-full hover:shadow-lg transition-all"
@@ -54,6 +55,14 @@ const Footer = () => {
             className="flex items-center justify-center w-12 h-12 text-white rounded-full hover:shadow-lg transition-all"
           >
             <InstagramIcon className="w-6 h-6" />
+          </a>
+          <a
+            href="https://x.com/Aditya28M"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center w-12 h-12 text-white rounded-full hover:shadow-lg transition-all"
+          >
+            <TwitterIcon className="w-6 h-6" />
           </a>
         </div>
 
@@ -87,7 +96,7 @@ const Footer = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1mhs0pvgpwzjuHVI5gn44KPVvdBwc3XH3/view?usp=drive_link"
+              href="https://drive.google.com/file/d/19yAZ2FWIZPRX2pFG4T4Jk7W2IwUN6FR3/view?usp=sharing"
             >
               <li className="hover:text-blue-500 transition-colors cursor-pointer">
                 Resume
